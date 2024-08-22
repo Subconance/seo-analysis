@@ -1,0 +1,27 @@
+{
+  "name": "seo-analysis",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "googleapis": "^140.0.1",
+    "lighthouse": "^12.1.0",
+    "metascraper": "^5.45.22",
+    "metascraper-description": "^5.45.22",
+    "metascraper-title": "^5.45.22",
+    "nodemon": "^3.1.4",
+    "xml2js": "^0.6.2"
+  }
+}
